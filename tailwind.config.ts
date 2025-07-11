@@ -26,7 +26,9 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					dark: 'hsl(var(--primary-dark))',
+					light: 'hsl(var(--primary-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +63,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// SOMAVER Colors
+				somaver: {
+					green: 'hsl(var(--somaver-green))',
+					'green-dark': 'hsl(var(--somaver-green-dark))',
+					'green-light': 'hsl(var(--somaver-green-light))',
+					black: 'hsl(var(--somaver-black))',
+					white: 'hsl(var(--somaver-white))',
+					gray: 'hsl(var(--somaver-gray))'
 				}
+			},
+			backgroundImage: {
+				'gradient-somaver': 'var(--gradient-somaver)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'somaver': 'var(--shadow-somaver)',
+				'elevation': 'var(--shadow-elevation)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
